@@ -53,16 +53,6 @@ pip-delete-this-directory.txt
 *.zip
 *.lnk
 test_connection.py
-backup_repo/
-clean_test/
-sql_import_database_tables.ipynb
-US_Data_Job_Listing_2022_to_2025\vw_skill_stats_mean_median_spread(2022-2025).sql
-US_Data_Job_Listing_2022_to_2025\vw_skill_stats_median_salary_pct_rank(2022-2025).sql
-US_Data_Job_Listing_2022_to_2025\vw_skill_stats_pct_rank(2022-2025).sql
-US_Data_Job_Listing_2022_to_2025\vw_skill_stats_pct_cume_dist(2022-2025).sql
-US_Data_Job_Listing_2022_to_2025\vw_skill_stats_median_salary(2022_2025).sql
-US_Data_Job_Listing_2022_to_2025\View_job_data (2022-2025).sql
-US_Data_Job_Listing_2022_to_2025\vw_ordered_median(2022-2025).sql
-US_Data_Job_Listing_2022_to_2025\vw_above_below_median(2022-2025).sql
-US_Data_Job_Listing_2022_to_2025\data_analyst_job_data_analysis(2022-2025).sql
-US_Data_Job_Listing_2022_to_2025\analyst_job_data_analysis(2022-2025).sql
+
+
+
