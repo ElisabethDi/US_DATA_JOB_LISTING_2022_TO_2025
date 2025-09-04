@@ -87,25 +87,10 @@ Using **MySQL (CTEs & Views)** and **Python visualizations**, the project uncove
 
 Set up the project locally in just a few steps:
 
----
-
-## Tools & Technologies
-- **SQL**: MySQL — tables, CTEs, views, stored procedures.  
-- **Python**:  
-  - Data manipulation: `pandas`, `numpy`  
-  - Visualization: `matplotlib`, `seaborn`, `plotly`  
-  - Utilities: `os`, `pathlib`, `dotenv`, `SQLAlchemy`  
-
----
-
-## Getting Started
-
 1. Clone the repo:
-
-```bash
-git clone https://github.com/your-username/US_DATA_JOB_LISTING_2022_TO_2025.git
+ 
+git clone https://github.com/ElisabethDi/US_DATA_JOB_LISTING_2022_TO_2025.git
 cd US_DATA_JOB_LISTING_2022_TO_2025
-
 
 2. Environment set up:
 
@@ -116,9 +101,17 @@ Using pip:
 Using conda:
     conda env create -f environment.yml
     conda activate us-data-jobs
+    
+---
 
+## Tools & Technologies
+- **SQL**: MySQL — tables, CTEs, views, stored procedures.  
+- **Python**:  
+  - Data manipulation: `pandas`, `numpy`  
+  - Visualization: `matplotlib`, `seaborn`, `plotly`  
+  - Utilities: `os`, `pathlib`, `dotenv`, `SQLAlchemy`  
 
-
+---
 
 Project Structure
 
