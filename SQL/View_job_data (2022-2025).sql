@@ -39,6 +39,7 @@ GROUP BY clean_title, month_year, year
 ORDER BY clean_title, month_year, year;
 
 DELIMITER;
+
 -- ============================================================================== --
 
 SELECT	*

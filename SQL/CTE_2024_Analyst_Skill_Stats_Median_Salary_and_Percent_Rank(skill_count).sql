@@ -10,13 +10,13 @@ WITH skill_stats_median_salary AS(
     ROUND(AVG(jm.salary_yearly), 2) AS avg_salary,
     MAX(jm.salary_yearly) AS max_salary,
     CONCAT(ROUND(PERCENT_RANK() OVER 
-			(ORDER BY AVG(jm.salary_yearly) DESC) * 100, 0),'%') AS pct_rank  -- Percentile a skill’s pay falls into.
+			(ORDER BY AVG(jm.salary_yearly) DESC) * 100, 0),'%') AS pct_rank  -- Percentile Rank a skill’s median pay falls into.
   FROM skill_link sl
   JOIN skills_dim sd ON sl.skill_id = sd.skill_id
   JOIN jobs_master jm ON sl.job_id = jm.job_id
-  JOIN 2022_job_data jd ON jm.job_id = jd.job_id
+  JOIN 2024_job_data jd ON jm.job_id = jd.job_id
   LEFT JOIN median_salary_view v ON v.clean_title = jd.clean_title
-  WHERE jd.`year` = 2022
+  WHERE jd.`year` = 2024
     AND jd.clean_title LIKE '%Analyst%'
      AND jd.clean_title != 'Data Analyst'
   GROUP BY sd.skill_name, jd.clean_title
