@@ -16,6 +16,9 @@ env/
 venv/
 ENV/
 
+# Jupyter (only checkpoints ignored, notebooks are tracked)
+.ipynb_checkpoints
+
 # IDE / Editor
 .vscode/
 .spyderproject
@@ -45,11 +48,8 @@ pip-delete-this-directory.txt
 *.so
 *.manifest
 *.spec
+
 # Keeping these files out of the GitHub repo
 *.zip
 *.lnk
 test_connection.py
-
-
-
-
