@@ -11,7 +11,6 @@
 - [Tools & Technologies](#tools--technologies)
 - [Getting Started](#-getting-started)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
 - [License](#license)
 
 ---
@@ -128,3 +127,4 @@ US_DATA_JOB_LISTING_2022_TO_2025/
  License
 
 This project is open source and available under the MIT License.
+
