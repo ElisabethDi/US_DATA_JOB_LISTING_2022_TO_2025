@@ -16,10 +16,6 @@ env/
 venv/
 ENV/
 
-# Jupyter
-.ipynb_checkpoints
-*.ipynb
-
 # IDE / Editor
 .vscode/
 .spyderproject
@@ -53,6 +49,7 @@ pip-delete-this-directory.txt
 *.zip
 *.lnk
 test_connection.py
+
 
 
 
